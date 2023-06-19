@@ -11,7 +11,7 @@ The dataset used in this project is ratings.csv, which originally contains 25000
 
 ## Files
 * eda.ipynb: Exploratory data analysis to gather an overview on the dataset. <br />
-* data.py: It contains functions and classes to prepare the data on top of pytorch lightning for the neural network then. <br />
+* data.py: It contains functions and classes to prepare the data based on pytorch lightning for the neural network then. <br />
 * model.py: Neural collaborative filtering based on pytorch lightning. <br />
 * trainer.py: All setups related to the training process. <br />
 * evaluation.ipynb: Evaluating the perfomance of the trained model with respect to the metrices of Hit Ratio @ 5 and Hit Ratio @ 10. <br />
