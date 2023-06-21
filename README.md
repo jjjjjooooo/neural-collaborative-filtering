@@ -17,6 +17,6 @@ The dataset used in this project is **ratings.csv**, which contains 25000095 ent
 * evaluation.ipynb: File for evaluation with the metrices being Hit Ratio @ 5 and Hit Ratio @ 10. <br />
 * best_model.pt: The trained model hitting the lowest val_loss. <br />
 
-## Performance
+## Performances
 Hit Ratio @ 5: 90.41% <br />
 Hit Ratio @ 10: 96.49% <br />
