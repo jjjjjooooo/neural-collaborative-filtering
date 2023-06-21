@@ -1,13 +1,13 @@
 # Neural Collaborative Filtering 
 
 ## Goals
-Building a recommendation systems with neural networks to predict whether an user will interact with each movie, with the aim of presenting to users the movies with the highest interaction likelihood.
+Building a recommendation systems with neural networks to predict whether an user will interact with each movie, with the goal of recommending the movies to users with the highest interaction likelihood.
 
 ## Datasets
 MovieLens 25M Dataset <br />
 <https://grouplens.org/datasets/movielens/> <br />
 
-The dataset used in this project is ratings.csv, which originally contains 25000095 entries based on explicit feedback. The recommender system is trained using implicit feedback by binarizing the ratings.
+The dataset used in this project is **ratings.csv**, which contains 25000095 entries based on explicit feedback. The recommender system is trained using implicit feedback by binarizing the ratings and expanding the dataset about 5 times larger.
 
 ## Files
 * eda.ipynb: Exploratory data analysis on the dataset. <br />
