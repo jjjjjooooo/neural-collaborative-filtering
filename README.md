@@ -18,6 +18,8 @@ The dataset employed in this project is **ratings.csv**, comprising 25,000,095 e
 * **evaluation.ipynb**: File for evaluating the trained model with the metrices being Hit Ratio @ 5 and Hit Ratio @ 10. <br />
 
 ## Architecture of Neural Network
+In this project, label encoding is utilized for both the input variables of userId and movieId, as well as the output variable indicating whether an interaction has occurred (labeled as 1) or not (labeled as 0).
+
 ![image](https://github.com/jjjjjooooo/neural-collaborative-filtering/assets/50882720/d775e74a-7001-41ad-9f1e-23f8e1284e4b)
 
 
