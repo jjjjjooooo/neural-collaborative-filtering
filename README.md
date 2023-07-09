@@ -15,7 +15,7 @@ The dataset used in this project is **ratings.csv**, which contains 25000095 ent
 * **model.py**: Architecture of the neural collaborative filtering based on pytorch lightning for training. <br />
 * **trainer.py**: Main file to execute the training process. <br />
 * **best_model.pt**: The trained model hitting the lowest val_loss. <br />
-* **evaluation.ipynb**: File for evaluation with the metrices being Hit Ratio @ 5 and Hit Ratio @ 10. <br />
+* **evaluation.ipynb**: File for evaluating the trained model with the metrices being Hit Ratio @ 5 and Hit Ratio @ 10. <br />
 
 
 ## Performances
