@@ -17,6 +17,9 @@ The dataset employed in this project is **ratings.csv**, comprising 25,000,095 e
 * **best_model.pt**: The trained model hitting the lowest val_loss. <br />
 * **evaluation.ipynb**: File for evaluating the trained model with the metrices being Hit Ratio @ 5 and Hit Ratio @ 10. <br />
 
+## Architecture of Neural Network
+![image](https://github.com/jjjjjooooo/neural-collaborative-filtering/assets/50882720/d775e74a-7001-41ad-9f1e-23f8e1284e4b)
+
 
 ## Performances
 Hit Ratio @ 5: 90.41% <br />
