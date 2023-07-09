@@ -8,9 +8,6 @@ import os
 import wandb
 import time
 
-# Set the working directory
-os.chdir(r'D:\Dropbox\Self-Development\Coding_Projects\RecommenderSystem')
-
 # Login to Wandb
 wandb.login()
 
