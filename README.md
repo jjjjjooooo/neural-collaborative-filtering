@@ -7,7 +7,7 @@ Building a recommendation systems with neural networks to predict whether an use
 MovieLens 25M Dataset <br />
 <https://grouplens.org/datasets/movielens/> <br />
 
-The dataset used in this project is **ratings.csv**, which contains 25000095 entries based on explicit feedback. The recommender system is trained using implicit feedback by binarizing the ratings and expanding the dataset about 5 times larger.
+The dataset employed in this project is **ratings.csv**, comprising 25,000,095 entries derived from explicit feedback. The recommender system is trained using implicit feedback by binarizing the explicit ratings, resulting in an expanded dataset of approximately 125,000,000 entries, making it five times larger.
 
 ## Files
 * **eda.ipynb**: Exploratory data analysis on the dataset. <br />
