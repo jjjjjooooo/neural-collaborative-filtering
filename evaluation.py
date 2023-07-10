@@ -6,9 +6,6 @@ from tqdm import tqdm
 import data as d
 import model as m
 
-# Set the working directory
-os.chdir(r'D:\Dropbox\Self-Development\Coding_Projects\RecommenderSystem')
-
 # Get the current working directory
 cwd = os.getcwd()
 
