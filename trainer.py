@@ -1,3 +1,10 @@
+# -*- coding: utf-8 -*-
+"""
+Console for the training and validation processes
+
+Author: [Ou Jin]
+"""
+
 import data as d
 import model as m
 import torch

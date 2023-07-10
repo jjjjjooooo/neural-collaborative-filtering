@@ -1,3 +1,10 @@
+# -*- coding: utf-8 -*-
+"""
+Data Preparation for MovieLens Collaborative Filtering
+
+Author: [Ou Jin]
+"""
+
 import pandas as pd
 import torch
 import torch.utils.data as data

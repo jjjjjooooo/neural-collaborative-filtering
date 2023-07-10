@@ -1,3 +1,13 @@
+# -*- coding: utf-8 -*-
+"""
+Neural Collaborative Filtering (NCF) Model
+
+This script implements the NCF model using PyTorch and PyTorch Lightning for recommendation.
+
+Author: [Ou Jin]
+"""
+
+
 import torch
 import torch.nn as nn
 import pytorch_lightning as pl
