@@ -27,5 +27,3 @@ In this project, label encoding is utilized for both the input variables of user
 Hit Ratio @ 5: 90.41% <br />
 Hit Ratio @ 10: 96.49% <br />
 
-![image](https://github.com/jjjjjooooo/neural-collaborative-filtering/assets/50882720/34523e13-b2e1-4887-b22e-0b49fc8cd173)
-
