@@ -59,7 +59,7 @@ num_items = df['movieId'].max() + 1
 model = m.NCF(num_users, num_items)
 
 # Create the trainer
-trainer = pl.Trainer(max_epochs=1,
+trainer = pl.Trainer(max_epochs=-1,
                      min_epochs=1,
                      profiler='simple',
                      accelerator="gpu",
@@ -72,7 +72,7 @@ trainer = pl.Trainer(max_epochs=1,
 
 # Train the model
 trainer.fit(model, datamodule=dm)
-#trainer.save_checkpoint("checkpoint.ckpt")
+# trainer.save_checkpoint("checkpoint.ckpt")
 
 # Save the best model checkpoint
 checkpoint_callback.best_model_path
